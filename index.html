@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!--background-->
+    <div class="background"></div>
+    <div class="backgroundoverlay"></div>
+
+    <!-- Burger Menu Button -->
+    <div class="burger-menu">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!--side navigation bar-->
+    <nav id="navbar">
+        <ul id="nav-links">
+            <li>
+                <a href="#home" class="logo">
+                    <img src="images/hello-world.gif" alt="Hello World GIF">
+                    <span class="nav">Nathan Burrell's Portfolio</span>
+                </a>
+            </li>
+            <li><a href="#home">
+                <i class="fas fa-home"></i>
+                <span class="nav-item">home</span>
+            </a></li>
+            <li><a href="#aboutme">
+                <i class="fas fa-user-secret"></i>
+                <span class="nav-item">about me</span>
+            </a></li>
+            <li><a href="#myskills">
+                <i class="fas fa-book"></i>
+                <span class="nav-item">my skills</span>
+            </a></li>
+            <li><a href="#projects">
+                <i class="fas fa-laptop-code"></i>
+                <span class="nav-item">projects</span>
+            </a></li>
+            <li><a href="#contactme">
+                <i class="fas fa-envelope"></i>
+                <span class="nav-item">contact me</span>
+            </a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!--home section-->
+        <section id="home"></section>
+        <figcaption class="home-text"><h1>hello world!</h1></figcaption>
+
+        <!--about me section-->
+        <section id="aboutme">
+            <h2 class="h2-aboutme">about me</h2>
+            <p>What began as a passionate hobby has now evolved into a dedicated career pursuit. With a profound interest in all facets of computing, I have cultivated a robust educational foundation in IT, spanning from college to university, and recently culminating in a comprehensive course with JustIT.</p>
+            <p>I am a highly motivated individual with a strong desire to continuously learn and adapt. This drive and willingness to learn permeates every aspect of my life, from gaming to forging a successful career in IT, and everything in between.</p>
+            <p>At Newcastle College, I pursued and completed an Access to HE: Computing course, where I significantly enhanced my expertise across various computing disciplines. The curriculum encompassed a diverse range of modules, including advanced communication skills, information technology systems, programming principles, organizational network security, relational database software, web design, and the creation, editing, and analysis of complex spreadsheets. This comprehensive education had equipped me with a strong foundation and versatile skill set, preparing me for where I am today.</p>
+            <p>At the University of Sunderland, I pursued a degree in Networks and Cybersecurity, where I further solidified my expertise in these critical domains. I gained hands-on experience in designing, maintaining, and securing network systems using industry-standard software such as Cisco Packet Tracer, Docker, VMware, and various other applications. Although personal circumstances prevented me from completing the course, I have the opportunity to return and finish my studies. This experience has equipped me with a basic understanding of Networks and Cybersecurity.</p>
+            <p>Recently, I completed an intensive bootcamp with JustIT, where I honed my skills in both front-end and back-end software development. Throughout the rigorous 8-week training program, I reinforced and expanded my foundational knowledge in HTML, CSS, JavaScript, SQL, and Python. Leveraging the cutting-edge techniques and best practices acquired during the bootcamp, I successfully developed this portfolio and several projects, showcasing my ability to apply theoretical knowledge to practical, real-world scenarios.</p>
+        </section>
+
+        <!--my skills section-->
+        <section id="myskills">
+            <h2 class="h2-skills">my skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="svgskills/html-5.svg" alt="HTML5 Icon">
+                    <span>HTML5</span>
+                </div>
+                <div class="skill">
+                    <img src="svgskills/css-3.svg" alt="CSS3 Icon">
+                    <span>CSS3</span>
+                </div>
+                <div class="skill">
+                    <img src="svgskills/javascript.svg" alt="JavaScript Icon">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill">
+                    <img src="svgskills/python.svg" alt="Python Icon">
+                    <span>Python</span>
+                </div>
+                <div class="skill">
+                    <img src="svgskills/mysql.svg" alt="SQL Icon">
+                    <span>SQL</span>
+                </div>
+                <div class="skill">
+                    <img src="svgskills/sqlite.svg" alt="SQLite Icon">
+                    <span>SQLite</span>
+                </div>
+                <div class="skill">
+                    <img src="svgskills/bash.svg" alt="Bash Icon">
+                    <span>Bash</span>
+                </div>
+                <div class="skill">
+                    <img src="svgskills/visual-studio.svg" alt="Visual Studio Icon">
+                    <span>Visual Studio</span>
+                </div>
+                <div class="skill">
+                    <img src="svgskills/visual-studio-code.svg" alt="Visual Studio Code Icon">
+                    <span>Visual Studio Code</span>
+                </div>
+                <div class="skill">
+                    <img src="svgskills/github.svg" alt="Github Icon">
+                    <span>Github</span>
+                </div>
+                <div class="skill">
+                    <img src="svgskills/docker-icon.svg" alt="Docker Icon">
+                    <span>Docker</span>
+                </div>
+                <div class="skill">
+                    <img src="svgskills/kubernetes.svg" alt="Kubernetes Icon">
+                    <span>Kubernetes</span>
+                </div>
+                <div class="skill">
+                    <img src="svgskills/vmware.svg" alt="VMware Icon">
+                    <span>VMware</span>
+                </div>
+                <div class="skill">
+                    <img src="svgskills/packet-tracer.svg" alt="Cisco Packet Tracer Icon">
+                    <span>Cisco Packet Tracer</span>
+                </div>
+            </div>
+        </section>
+
+        <!--projects section-->
+        <section id="projects">
+            <h2 class="h2-projects">projects</h2>
+            <div class="projects-container">
+                <div class="projects">
+                    <img src="images/PasswordGeneratorV1.png" alt="Password Generator V1">
+                    <span>Password Generator V1 using JavaScript</span>
+                </div>
+                <div class="projects">
+                    <img src="images/PasswordManagerV1.png" alt="Password Manager V1">
+                    <span>Password Manager V1 using Python and SQLite</span>
+                </div>
+                <div class="projects">
+                    <img src="images/GamingStoreDB.png" alt="Gaming Store Database">
+                    <span>Gaming Store Database using SQL</span>
+                </div>
+            </div>
+        </section>
+
+        <!--contact me section-->
+        <section id="contactme">
+            <h2 class="h2-contactme">contact me</h2>
+            <form id="contact-form">
+                <fieldset>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Send</button>
+                </fieldset>
+            </form>
+            <div id="form-message"></div>
+            <!--Social Media Section-->
+            <div id="social-media">
+                <h3>Follow or contact me via social media</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/nathanburrell03?locale=en_GB" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/nathan-burrell-b2a786355/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/mrnuclearmuffin/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/Nathan-J-Burrell" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--footer-->
+    <footer>
+        <p>&copy; 2025 Nathan Burrell. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
